@@ -2,6 +2,22 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
+/*Splash*/
+
+body {
+    text-align: center;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Roboto Slab', serif;
+    }
+ 
+.conteiner {
+    max-width: 1140px;
+    margin: 50px auto;
+    padding: 0 20px;
+    height: 100%;
+    }
 
 .splash {
     height: 100vh;
@@ -73,4 +89,51 @@ font-family: 'Roboto Slab', serif;
     background-color: #f3d10f;
     border-color: #f3d10f;
     color: #fff; 
+}
+/*Services*/
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+.section-title {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin: 72px 0 0 0;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+    }
+    
+.section-subtitle {
+    font-size: 16px;
+    margin: 8px 0 12px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: #585858;
+    }
+
+.text-box {
+    flex: 0 0 33.333%;
+    text-align: center; 
+    position: relative;
+    margin: 36px 0;
+    padding: 0 24px;
+    }
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-content {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px; 
+    color: #585858;  
 }
