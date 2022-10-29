@@ -1,6 +1,76 @@
-body {
-    background: #fff;
-    color: #524442;
-    font-size: 78px;
-    line-height: 1.7;
-    font-family: 'Lato', sans-serif; }
+/*Global
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url("https://i.postimg.cc/65R7pvYh/Background-Image.png");
+    background-position: center center;
+    background-size: center;
+    background-attachment: fixed; }
+  
+.splash-liner {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #fff;
+ }
+
+.splash-liner h2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.splash-liner h1 {
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.logo {
+    padding-top: 32px;
+    padding-left: 62px;
+    text-align: center;
+}
+
+.menu {
+    padding-top: 32px;
+}
+.navigation li {
+    display: inline-block;
+    margin: 0;
+    position: relative; }
+
+.navigation a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff; }
+
+    .button {
+    display: inline-block;
+    min-width: 220px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    background-color: #f3d10f;
+    border-color: #f3d10f;
+    color: #fff; 
+}
