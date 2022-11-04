@@ -119,9 +119,7 @@ body {
     }
 
 .text-box {
-    flex: 0 0 33.333%;
     text-align: center; 
-    position: relative;
     margin: 36px 0;
     padding: 0 24px;
     }
@@ -167,6 +165,11 @@ padding: 5px;
 text-align: center;
 }
 
+.icons {
+padding-top: 12px;
+text-align: center;
+}
+
 .btn-one {
 width: 40px;
 height: 40px;
@@ -184,4 +187,85 @@ margin: 5px 0;
 .copyright {
     text-align: center;
     padding: 12px;
+}
+
+@media (max-width: 767px) {
+    .navigation a {
+        font-size: 8px;
+        padding: 4px;
+    }
+    
+    .menu {
+        padding-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .logo {
+      padding-top: 32px;
+      padding-left: 32px;
+      text-align: center;
+    }
+    
+    .button {
+      min-width: 100px;
+      padding: 8px;
+      font-size: 10px;
+    }
+    
+    .splash-liner h2 {
+        font-size: 24px;
+    }
+    
+    .splash-liner h1 {
+      font-size: 32px;
+    }
+    
+    .text-box {
+      margin: 36px 36px;
+    }
+    
+    footer a {
+      font-size: 12px;
+    }
+    
+    .icons {
+    text-align: center;
+    }
+    
+    .btn-one {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .copyright {
+      text-align: center;
+      padding: 0;
+      font-size: 10px;
+    }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1200px) {
+    .navigation a {
+        font-size: 10px;
+        padding: 18px;
+    }
+    
+    .menu {
+        padding-top: 32px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .logo {
+      padding-top: 32px;
+      padding-left: 32px;
+      text-align: center;
+    }
+    
+    .button {
+      min-width: 120px;
+      padding: 10px;
+      font-size: 12px;
+        }
 }
